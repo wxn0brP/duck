@@ -11,12 +11,20 @@ csc main.cs
 
 *or*
 
+<code>
+
 dotnet new console --name duck
+
 cp main.cs duck/main.cs
+
 cp duck.txt duck/duck.txt
+
 rm duck/Program.cs
+
 cd duck
+
 dotnet run
+</code>
 
 
 ## Java
